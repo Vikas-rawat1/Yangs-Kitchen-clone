@@ -6,7 +6,7 @@ function Navigation() {
         <div className="flex items-center  ">
           <img
             className="w-64 h-34 mr-4 "
-            src="/images/YangsKitchen_Logo.png"
+            src="images/YangsKitchen_Logo.png"
             alt="LOGO"
           />
         </div>
