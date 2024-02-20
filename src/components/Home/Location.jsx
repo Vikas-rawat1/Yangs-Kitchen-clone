@@ -3,20 +3,24 @@ import React from "react";
 function Location() {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-20 mx-5">
-        <div className="flex flex-col justify-center items-center text-center">
-          <h1 className="text-xl font-serif">LOCATION</h1>
+      <div className="grid grid-cols-2 mt-20">
+        <div className=" justify-center items-center text-center">
+          <h1 className="text-xl font-serif">LOCATION </h1>
           <div className="mt-5">
             <p className="text-gray-500">112 W Main St.</p>
             <p className="text-gray-500">Alhambra, CA 91801</p>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center">
-          <p className="text-gray-500 text-center">
+        <div className="justify-center w-50">
+          <p className="w-64  text-gray-500">
             Here are directions to our location. We hope to see you soon!
           </p>
-          <p className="mt-6 underline text-gray-500">Get Directions</p>
-          <p className="mt-6 underline text-gray-500">Parking Information</p>
+          <p className="leading-6 mt-6 underline  text-gray-500">
+            Get Directions
+          </p>
+          <p className="leading-6 mt-6 underline  text-gray-500">
+            Parking Information
+          </p>
         </div>
       </div>
       <div className="flex items-center justify-center h-screen mt-10">
