@@ -1,9 +1,8 @@
 {
-  "homepage": "https://vikas-rawat1.github.io/Yangs-Kitchen-clone/",
   "name": "yangskitchen",
-  "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://vikas-rawat1.github.io/Yangs-Kitchen-clone/",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
