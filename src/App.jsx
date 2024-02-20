@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Kitchen from "./components/Home/Kitchen";
 import Member from "./components/Home/Member";
 import Location from "./components/Home/Location";
-import React, { useState } from "react";
+// import React, { useState } from "react";
 
 function App() {
   return (
