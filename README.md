@@ -1,5 +1,36 @@
 # React + Vite
 
+Installation
+Prerequisites
+Node.js and npm installed
+Clone and Setup
+Clone the repository:
+
+git clone https://github.com/nikhilsaiankilla/ecommerce-project.git
+Navigate to the project directory:
+
+cd ecommerce-project
+Install dependencies:
+
+npm install
+Start the development server:
+
+npm start
+Usage
+Open your browser and visit http://localhost:3000 to view the application.
+Explore products, add to wishlist, and place orders.
+
+
+
+
+
+
+
+
+
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
