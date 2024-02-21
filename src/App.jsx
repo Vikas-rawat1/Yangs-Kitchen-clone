@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Kitchen from "./components/Home/Kitchen";
 import Member from "./components/Home/Member";
 import Location from "./components/Home/Location";
+import About from "./components/Home/About";
 // import React, { useState } from "react";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       />
       <Kitchen/>
      <Location />
+     <About/> 
       </>
   );
 }
