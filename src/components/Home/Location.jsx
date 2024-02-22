@@ -15,11 +15,15 @@ function Location() {
           <p className="w-64  text-gray-500">
             Here are directions to our location. We hope to see you soon!
           </p>
-          <p className="leading-6 mt-6 underline  text-gray-500">
-            Get Directions
+          
+          <p className="leading-6 mt-6 underline  text-gray-500 hover:cursor-pointer">
+           <a href="https://maps.app.goo.gl/BVgrQfQgqGqJuvFE7">Get Directions</a> 
           </p>
-          <p className="leading-6 mt-6 underline  text-gray-500">
+          <p className="leading-6 mt-6 underline  text-gray-500 hover:cursor-pointer">
+          <a href="https://www.instagram.com/p/COCNWnaj_zO/?img_index=1" target="_blank">
+
             Parking Information
+          </a>
           </p>
         </div>
       </div>

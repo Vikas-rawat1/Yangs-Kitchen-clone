@@ -71,10 +71,10 @@ function Social() {
       </div>
 
       <div className="mt-80 grid grid-cols-4 ml-20 w-4/5 gap-10 items-center">
-        <img src="images/sbelow1.png" alt="" />
-        <img src="images/sbelow2.png" alt="" />
-        <img src="images/sbelow3.png" alt="" />
-        <img src="images/sbelow4.png" alt="" />
+        <img src="images/sbelow1.png" alt="sliderBelow1" />
+        <img src="images/sbelow2.png" alt="sliderBelow2" />
+        <img src="images/sbelow3.png" alt="sliderBelow3" />
+        <img src="images/sbelow4.png" alt="sliderBelow4" />
       </div>
     </>
   );
