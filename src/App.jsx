@@ -12,34 +12,7 @@ function App() {
   return (
     <>
       <Navigation />
-      <Home
-        divStyle={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-        pStyle={{
-          width: "54%",
-          textAlign: "center",
-          marginTop: "2vw",
-        }}
-      />
-      <Member
-        divStyle={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-        pStyle={{
-          width: "54%",
-          textAlign: "center",
-          marginTop: "2vw",
-        }}
-      />
-      <Kitchen />
-      <Location />
-      <About />
-      <Social />
+   
       <Footer/>
     </>
   );

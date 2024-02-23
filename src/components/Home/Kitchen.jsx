@@ -1,7 +1,8 @@
 import React from "react";
-
+import Location from "./Location";
 function Kitchen() {
   return (
+    <>
     <div>
       <div className="grid grid-cols-2 gap-20 justify-center mt-20 ml-20 mr-20">
         <div>
@@ -37,6 +38,8 @@ function Kitchen() {
         />
       </div>
     </div>
+    <Location/>
+    </>
   );
 }
 

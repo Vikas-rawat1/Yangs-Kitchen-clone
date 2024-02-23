@@ -1,4 +1,5 @@
 import React from "react";
+import About from "./About";
 
 function Location() {
   return (
@@ -38,6 +39,7 @@ function Location() {
           allow="fullscreen"
         ></iframe>
       </div>
+      <About/>
     </>
   );
 }

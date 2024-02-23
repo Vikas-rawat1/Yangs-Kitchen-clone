@@ -1,5 +1,5 @@
 import React from "react";
-
+import Social from "./Social";
 function About() {
   return (
     <>
@@ -131,6 +131,7 @@ function About() {
           </ul>
         </div>
       </div>
+      <Social/>
     </>
   );
 }

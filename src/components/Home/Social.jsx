@@ -76,6 +76,7 @@ function Social() {
         <img src="images/sbelow3.png" alt="sliderBelow3" />
         <img src="images/sbelow4.png" alt="sliderBelow4" />
       </div>
+      
     </>
   );
 }

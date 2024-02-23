@@ -1,4 +1,5 @@
 import React from "react";
+import Home from "../pages/Home";
 function Navigation() {
   return (
     <>
@@ -20,6 +21,18 @@ function Navigation() {
           <li> 8 CONTACT US</li>
         </ul>
       </nav>
+      <Home
+        divStyle={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+        pStyle={{
+          width: "54%",
+          textAlign: "center",
+          marginTop: "2vw",
+        }}
+      />
     </>
   );
 }

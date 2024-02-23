@@ -1,4 +1,5 @@
 import React from "react";
+import Member from "../components/Home/Member";
 function Home({ divStyle, pStyle }) {
   return (
     <>
@@ -61,6 +62,18 @@ function Home({ divStyle, pStyle }) {
           </button>
         </div>
       </div>
+      <Member
+        divStyle={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+        pStyle={{
+          width: "54%",
+          textAlign: "center",
+          marginTop: "2vw",
+        }}
+      />
     </>
   );
 }

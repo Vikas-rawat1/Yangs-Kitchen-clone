@@ -1,5 +1,5 @@
 import React from "react";
-// import Home from "./Home";
+import Kitchen from "./Kitchen";
 
 function Member({ divStyle, pStyle }) {
   const pDesign = {
@@ -54,6 +54,7 @@ function Member({ divStyle, pStyle }) {
           </div>
         </div>
       </div>
+      <Kitchen />
     </>
   );
 }
