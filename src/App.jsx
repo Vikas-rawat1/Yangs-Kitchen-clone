@@ -29,7 +29,7 @@ function App() {
               />
             }
           />
-          <Route path="/" element={<Menu />} />
+          <Route path="/menu" element={<Menu />} />
           <Route path="/Reservation" element={<Reservation />} />
           <Route path="/Waitlist" element={<Waitlist />} />
           <Route path="/Wine" element={<Wine />} />
