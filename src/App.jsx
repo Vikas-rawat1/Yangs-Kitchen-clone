@@ -1,19 +1,41 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
-import Kitchen from "./components/Home/Kitchen";
-import Member from "./components/Home/Member";
-import Location from "./components/Home/Location";
-import About from "./components/Home/About";
-import Social from "./components/Home/Social";
-import Footer from "./components/Footer"
-// import React, { useState } from "react";
-
+import Footer from "./components/Footer";
+import Reservation from "./pages/Reservation";
+import Menu from "./pages/Menu";
+import Waitlist from"./pages/Waitlist" 
+import Wine from "./pages/Wine";
 function App() {
   return (
     <>
-      <Navigation />
-   
-      <Footer/>
+      <Router>
+        <Navigation />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <Home
+                divStyle={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+                pStyle={{
+                  width: "54%",
+                  textAlign: "center",
+                  marginTop: "2vw",
+                }}
+              />
+            }
+          />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/Reservation" element={<Reservation />} />
+          <Route path="/Waitlist" element={<Waitlist />} />
+          <Route path="/Wine" element={<Wine />} />
+        </Routes>
+      </Router>
+      <Footer />
     </>
   );
 }
