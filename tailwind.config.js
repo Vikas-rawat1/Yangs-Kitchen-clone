@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'proxima': ['Proxima Nova', 'sans-serif'],
+          'franklin': ['Franklin Gothic URW', 'sans-serif'],
       },
     },
   },

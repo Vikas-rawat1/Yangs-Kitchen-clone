@@ -6,11 +6,13 @@ function Navigation() {
     <>
       <nav className="container flex justify-end mt-5 mb-10">
         <div className="flex items-center">
-          <img
-            className="w-64 h-34 mr-4"
-            src="images/YangsKitchen_Logo.png"
-            alt="LOGO"
-          />
+          <Link to="/">
+            <img
+              className="w-64 h-34 mr-4"
+              src="images/YangsKitchen_Logo.png"
+              alt="LOGO"
+            />
+          </Link>
         </div>
         <ul className="leading-12  mr-20 text-right space-x-3 tracking-wider">
           <li className="mt-2">
