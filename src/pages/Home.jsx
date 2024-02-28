@@ -1,5 +1,6 @@
 import React from "react";
 import Member from "../components/Home/Member";
+import Footer from "../components/Footer";
 function Home({ divStyle, pStyle }) {
   return (
     <>
@@ -74,6 +75,8 @@ function Home({ divStyle, pStyle }) {
           marginTop: "2vw",
         }}
       />
+    <Footer/>
+
     </>
   );
 }

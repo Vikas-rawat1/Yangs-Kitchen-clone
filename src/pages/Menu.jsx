@@ -1,8 +1,10 @@
 import React from "react";
-
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 function Menu() {
   return (
     <>
+      <Navigation />
       <div className="flex justify-center">
         <ul className="flex gap-10">
           <li>BRUNCH </li>
@@ -365,6 +367,7 @@ function Menu() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
