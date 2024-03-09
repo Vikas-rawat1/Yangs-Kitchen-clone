@@ -82,3 +82,56 @@ function Social() {
 }
 
 export default Social;
+
+
+<div className="box h-400 w-200 m-auto mt-10 mb-20">
+<Slider {...carouselSettings}>
+  <div>
+    <img
+      src="images/cover.jpg"
+      alt="Hero Image"
+      className="mx-auto lg:w-4/5 rounded-xl"
+    />
+  </div>
+  <div>
+    <img
+      src="images/cover.jpg"
+      alt="Hero Image"
+      className="mx-auto lg:w-4/5 rounded-xl"
+    />
+  </div>
+</Slider>
+</div>
+
+
+
+///
+
+
+// <div className="h-400 w-/5 m-auto mt-10 mb-20 outline-none rounded-xl">
+//         <div className="mx-auto lg:w-4/5">
+//           <Slider {...carouselSettings}>
+//             <div>
+//               <img
+//                 src="images/cover.jpg"
+//                 alt="Hero Image"
+//                 className="mx-auto rounded-xl"
+//               />
+//             </div>
+//             <div>
+//               <img
+//                 src="images/cover.jpg"
+//                 alt="Hero Image"
+//                 className="mx-auto rounded-xl"
+//               />
+//             </div>
+//             <div>
+//               <img
+//                 src="images/cover.jpg"
+//                 alt="Hero Image"
+//                 className="mx-auto rounded-xl"
+//               />
+//             </div>
+//           </Slider>
+//         </div>
+//       </div>

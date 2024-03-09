@@ -14,7 +14,7 @@ function Navigation() {
             />
           </Link>
         </div>
-        <ul className="leading-12  mr-20 text-right space-x-3 tracking-wider">
+        <ul className="leading-12  mr-20 text-right space-x-3 tracking-wider ">
           <li className="mt-2">
             <Link to="/menu">1 VIEW OUR MENU</Link>
           </li>
