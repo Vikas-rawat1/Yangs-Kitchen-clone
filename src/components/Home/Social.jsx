@@ -84,7 +84,7 @@ function Social() {
 export default Social;
 
 
-<div className="box h-400 w-200 m-auto mt-10 mb-20">
+{/* <div className="box h-400 w-200 m-auto mt-10 mb-20">
 <Slider {...carouselSettings}>
   <div>
     <img
@@ -102,7 +102,7 @@ export default Social;
   </div>
 </Slider>
 </div>
-
+ */}
 
 
 ///
